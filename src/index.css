@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  background: #26c281;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
