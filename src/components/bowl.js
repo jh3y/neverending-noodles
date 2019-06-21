@@ -239,7 +239,7 @@ const Steam = styled.div`
   text-decoration-style: wavy;
   text-decoration-color: #fff;
   transform: rotate(90deg) scale(2);
-  animation: ${steaming} 2s ${p => p.delay * 0.75}s infinite linear;
+  animation: ${steaming} 2s -${p => p.delay * 0.75}s infinite linear;
   `
 
 const BowlComponent = ({ shake, noodles }) => (
